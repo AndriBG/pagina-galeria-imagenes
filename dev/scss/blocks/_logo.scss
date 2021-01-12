@@ -1,0 +1,21 @@
+.logo {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 200;
+    top: .01rem;
+    left: .1rem;
+
+    &__img {
+        max-width: 100%;
+    }
+
+    @include laptop {
+        position: absolute;
+        left: 2rem;
+        top: 1rem;
+        width: 5%;
+    }
+}
